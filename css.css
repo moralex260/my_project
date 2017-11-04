@@ -1,0 +1,48 @@
+
+body{
+    background-image: url(images/1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ @font-face {
+    font-family: War is Over; /* Гарнитура шрифта */
+    src: url(fonts/10930.otf); /* Путь к файлу со шрифтом */
+   }
+   h1 {
+    font-family: War is Over ;color:red;
+   }
+   h2{
+    font-family: War is Over ;color:red;}
+
+p1{color:green;}
+div1{color:yellow;}
+#songPlayPause {center}
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+   
+   
+    .layer1 {
+            float: right;
+            /* Обтекание по правому краю */
+            background: #fd0;
+            /* Цвет фона */
+            border: 1px solid black;
+            /* Параметры рамки */
+            padding: 10px;
+            /* Поля вокруг текста */
+            margin-right: 20px;
+            /* Отступ справа */
+            width: 40%;
+            /* Ширина блока */
+        }
+   p11 {color:yellow;}  
+   div2{font-size: 24;lurdg;}
