@@ -1,34 +1,38 @@
 
-body{
+body{;
+ 
     background-image: url(images/1.jpg);
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    max-width: 75%;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 0;
 }
  @font-face {
     font-family: War is Over; /* Гарнитура шрифта */
     src: url(fonts/10930.otf); /* Путь к файлу со шрифтом */
    }
    h1 {
-    font-family: War is Over ;color:red;
+    font-family: War is Over ;color:red;margin:inherit ;padding: inherit ;font-size: 50px
    }
    h2{
     font-family: War is Over ;color:red;}
 
 p1{color:green;}
-div1{color:yellow;}
-#songPlayPause {center}
+div1{color:yellow; right: 20px;}
    .leftimg {
     float:left; /* Выравнивание по левому краю */
     margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
    }
-   .rightimg  {
-    float: right; /* Выравнивание по правому краю  */ 
-    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   .my {bottom: auto; right:50px ; margin: 0 auto;
+  padding: 0; }
+   #f{
+    width: 40px;
+    height: 40px;
    }
-   
    
     .layer1 {
             float: right;
@@ -39,10 +43,28 @@ div1{color:yellow;}
             /* Параметры рамки */
             padding: 10px;
             /* Поля вокруг текста */
-            margin-right: 20px;
+            margin-left: 50px;
             /* Отступ справа */
-            width: 40%;
+           max-width:  400px ;
             /* Ширина блока */
+            left: 20px;top: auto
+            
         }
-   p11 {color:yellow;}  
-   div2{font-size: 24;lurdg;}
+        #image {max-width:150px;max-height: inherit
+         
+  
+}
+.about-me {color:GreenYellow; 
+min-width: 300px;
+max-height: 300px;}
+
+ .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 0px 0 0px 0px; /* Отступы вокруг картинки */
+   }
+   #email{bottom: auto ;
+    margin: 0 auto;
+  padding: 0;
+    
+   }
+ 

@@ -1,3 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+ <HTML><HEAD> <title>Летающие фото</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="JavaScript  эффекты  просмотра  фотогалерей  с  показом  скрипта">
+    <meta name="Keywords" content="Галерея, фото,  javascript, скрипт, слайд, шоу, слайдшоу,эффекты,фотопросмотр, photo, gallery,фото на JavaScript,сайт, показ, фото дизайнер">
+<meta name=Robots content="ALL">
+<meta content=Follow name=robots>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</HEAD>
+ <STYLE type=text/css>BODY {
+    PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 100%; CURSOR: crosshair; PADDING-TOP: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 100%; zIndex: -2
+}
+IMG {
+    BORDER-RIGHT: #150 1px solid; BORDER-TOP: #150 1px solid; LEFT: -10000px; BORDER-LEFT: #150 1px solid; CURSOR: pointer; BORDER-BOTTOM: #222 1px solid; POSITION: absolute
+}
+</STYLE>
+<SCRIPT type=text/javascript><!--
+
 window.onerror = new Function("return true");
 screen.bufferDepth = 16;
 object = new Array();
@@ -120,3 +139,20 @@ onload = function() {
     for(i=0;i<nbI;i++) object[i] = new CObj(i,img[i]);
     nextImg();
 }
+//-->
+</SCRIPT>
+<body>
+ <center><h3>Летающие фото</h3></center>
+<center><h4><a href="foto.html">Назад</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="js59-1.html">Просмотр скрипта</a></h4></center>
+<script language="JavaScript" src="../../menu.js"></script>
+<DIV id=IMG style="Z-INDEX: 1"><IMG onclick=zyva(1)
+ <img src="../Image/isf10.jpg" width=500 height=375 border=0><IMG onclick=zyva(1)
+<img src="../Image/isf3.jpg"> <IMG onclick=zyva(2)
+<img src="../Image/isf2.jpg"> <IMG onclick=zyva(3)
+<img src="../Image/isf4-1.jpg"> <IMG onclick=zyva(4)
+<img src="../Image/isf6.jpg"> <IMG onclick=zyva(5)
+<img src="../Image/isf11.jpg"> <IMG onclick=zyva(6)
+<img src="../Image/isf5.jpg">
+</DIV>
+</body>
+</HTML>
