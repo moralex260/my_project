@@ -1,70 +1,114 @@
+body {
+ ;
 
-body{;
- 
-    background-image: url(images/1.jpg);
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 75%;
-  min-width: 300px;
-  margin: 0 auto;
-  padding: 0;
+ background-image: url(images/1.jpg);
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ max-width: 75%;
+ min-width: 300px;
+ margin: 0 auto;
+ padding: 0;
 }
- @font-face {
-    font-family: War is Over; /* Гарнитура шрифта */
-    src: url(fonts/10930.otf); /* Путь к файлу со шрифтом */
-   }
-   h1 {
-    font-family: War is Over ;color:red;margin:inherit ;padding: inherit ;font-size: 50px
-   }
-   h2{
-    font-family: War is Over ;color:red;}
 
-p1{color:green;}
-div1{color:yellow; right: 20px;}
-   .leftimg {
-    float:left; /* Выравнивание по левому краю */
-    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
-   }
-   .my {bottom: auto; right:50px ; margin: 0 auto;
-  padding: 0; }
-   #f{
-    width: 40px;
-    height: 40px;
-   }
-   
-    .layer1 {
-            float: right;
-            /* Обтекание по правому краю */
-            background: #fd0;
-            /* Цвет фона */
-            border: 1px solid black;
-            /* Параметры рамки */
-            padding: 10px;
-            /* Поля вокруг текста */
-            margin-left: 50px;
-            /* Отступ справа */
-           max-width:  400px ;
-            /* Ширина блока */
-            left: 20px;top: auto
-            
-        }
-        #image {max-width:150px;max-height: inherit
-         
-  
+@font-face {
+ font-family: War is Over;
+ /* Гарнитура шрифта */
+ src: url(fonts/10930.otf);
+ /* Путь к файлу со шрифтом */
 }
-.about-me {color:GreenYellow; 
-min-width: 300px;
-max-height: 300px;}
 
- .rightimg  {
-    float: right; /* Выравнивание по правому краю  */ 
-    margin: 0px 0 0px 0px; /* Отступы вокруг картинки */
-   }
-   #email{bottom: auto ;
-    margin: 0 auto;
-  padding: 0;
-    
-   }
- 
+h1 {
+ font-family: War is Over;
+ color: red;
+ margin: inherit;
+ padding: inherit;
+ font-size: 50px
+}
+
+h2 {
+ font-family: War is Over;
+ color: red;
+}
+
+p1 {
+ color: green;
+}
+
+div1 {
+ color: yellow;
+ right: 20px;
+}
+
+.leftimg {
+ float: left;
+ /* Выравнивание по левому краю */
+ margin: 7px 7px 7px 0;
+ /* Отступы вокруг картинки */
+}
+
+.my {
+ bottom: auto;
+ right: 50px;
+ margin: 0 auto;
+ padding: 0;
+}
+
+#f {
+ width: 40px;
+ height: 40px;
+}
+
+.layer1 {
+ float: right;
+ /* Обтекание по правому краю */
+ background:#fd0 ;
+ /* Цвет фона */
+ border: 1px solid black;
+ border-radius: 0 70px 70px 0;
+ /* Параметры рамки */
+ padding: 10px;
+ /* Поля вокруг текста */
+ margin-left: 50px;
+ /* Отступ справа */
+ max-width: 400px;
+ /* Ширина блока */
+ left: 20px;
+ top: auto
+}
+
+#image {
+ max-width: 150px;
+ max-height: inherit;
+ border-radius :0 50px 50px 0;
+}
+
+.about-me {
+ color: GreenYellow;
+ min-width: 300px;
+ max-height: 300px;
+}
+
+.rightimg {
+ float: right;
+ /* Выравнивание по правому краю  */
+ margin: 0px 0 0px 0px;
+ /* Отступы вокруг картинки */
+}
+
+#email {
+ bottom: auto;
+ margin: 0 auto;
+ padding: 0;
+
+}
+#fotos {
+ min-width: 200px;
+ max-height: 150px;
+ left: 200px;
+ background-color: purple;
+ background-size: cover;
+ margin:0 auto;
+ padding: 0 ;
+}

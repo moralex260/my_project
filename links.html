@@ -8,11 +8,11 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css.css" />
     <link href="url">
-    <svg class="icon-box" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <use xlink:href="images/sprite.svg#user"></use>
-</svg>
-<script src="1.js"></script>
-<script src="js/jquery-2.2.3.min.js"></script>
+<script src="https://js.cx/libs/animate.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+    <script src="1.js"></script>
+    <script src="js/jquery-2.2.3.min.js"></script>
 </head>
 
 <body>
@@ -31,34 +31,49 @@
             <label>		<li><a href=https://validator.w3.org>validator.w3.org</a></li></label>
             <li><a href=https://github.com>github</a></li>
             <li><a href=https://c9.io>cloud9</a></li>
-            <li><a href=https://learncssgrid.com/>learncssgrid</a></li>
+            <li><a href=https://learncssgrid.com/>learncssgrid</a>
+            </li>
             <li><a href=https://developer.mozilla.org>mdn</a></li>
             <li><a href=https://app.moqups.com>moqups</a></li>
-            <li><a href=https://></a></li>
-           <li></li> <a href='http://favicon.ru'> Favicon.ru - создание и редактирование фавиконов, иконок сайтов</a></li>
+            <li><a href=https://></a>
+            </li>
+            <li></li> <a href='http://favicon.ru'> Favicon.ru - создание и редактирование фавиконов, иконок сайтов</a></li>
         </ul>
     </nav>
-   <script language="JavaScript" src="../../menu.js"></script>
-<DIV id=IMG style="Z-INDEX: 1"><IMG onclick=zyva(1) 
-<img src="../Image/imagesY970VKLO.jpg.jpg" width=500 height=375 border=0><IMG onclick=zyva(1)
-<img src="../Image/my-fono.jpg"> <IMG onclick=zyva(2) 
-<img src="../Image/isf2.jpg"> <IMG onclick=zyva(3) 
-<img src="../Image/isf 4-1.jpg"> <IMG onclick=zyva(4) 
-<img src="../Image/isf6.jpg"> <IMG onclick=zyva(5) 
-<img src="../Image/isf11.jpg"> <IMG onclick=zyva(6)
-<img src="../Image/isf5.jpg"> 
-</DIV> 
-<STYLE type=text/css>BODY {
-PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND:#A1FEF9; LEFT: 0px;
-PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 100%; CURSOR:
-crosshair; PADDING-TOP: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 100%;
-zIndex: -2
-}
-IMG {
-BORDER-RIGHT: #150 1px solid; BORDER-TOP: #150 1px solid; LEFT: -10000px;
-BORDER-LEFT: #150 1px solid; CURSOR: pointer; BORDER-BOTTOM: #222 1px solid; POSITION: absolute
-}
-</STYLE>
+ <div id="field">
+    <img src="<img  src=my_project/images/my-foto.png alt="my foto" class="rightimg"" width="40" height="40" id="ball">
+  </div>
+
+  <script>
+    function makeEaseOut(timing) {
+      return function(timeFraction) {
+        return 1 - timing(1 - timeFraction);
+      }
+    }
+
+    function bounce(timeFraction) {
+      for (var a = 0, b = 1, result; 1; a += b, b /= 2) {
+        if (timeFraction >= (7 - 4 * a) / 11) {
+          return -Math.pow((11 - 6 * a - 11 * timeFraction) / 4, 2) + Math.pow(b, 2)
+        }
+      }
+    }
+
+    ball.onclick = function() {
+
+      var to = field.clientHeight - ball.clientHeight;
+
+      animate({
+        duration: 2000,
+        timing: makeEaseOut(bounce),
+        draw: function(progress) {
+          ball.style.top = to * progress + 'px'
+        }
+      });
+
+
+    };
+  </script>
 </body>
 
 </html>
