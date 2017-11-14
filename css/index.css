@@ -99,11 +99,7 @@ p {
  /* Отступы вокруг картинки */
 }
 
-#email {
- bottom: auto;
- margin: 0 auto;
- padding: 0;
-}
+
 
 #fotos {
  border: 4px solid black;
@@ -122,3 +118,4 @@ width:128px;
  right: 200px;
  background-image: url(/images/btn.png)
 }
+#contacts{height: auto}

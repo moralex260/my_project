@@ -12,7 +12,6 @@
 
 <body>
     <div id="main">
-
         <h1>Aleksandr Morozov</h1>
         <h2>my personal website</h2>
         <nav><a href="home"></a> | <a href="links.html">"links"</a> |
@@ -30,35 +29,39 @@
             I was born in Lviv in 1978 in Ukraine. In 1994 I graduated from the school with the best result and entered the Lviv National University of Veterinary Medicine and Biotechnology, which successfully graduated in 1999 with a diploma with honors. After that
             I was engaged in many businesses. Finally, in the fall of 2017, I began to visit the html, css, javascript course foundations. I hope to become the developer. This site is my first steps in this direction.
         </div>
-        <div id="email" class="email">
-            <form method="POST" action="https://formspree.io/moralex260@gmail.com">
-                <label>Name:
-                            <input type="text" name="client-name" placeholder="Your Name" maxlength="12" required  >
+        <p>Page loaded: <span id="page-loaded"></span></p>
+        <h2>Contact form</h2>
+        <form>
+            <label>Name:
+                            <input type="text" id="your-name" placeholder="Your Name" maxlength="12" required  >
                             <br>
                         </label>
                 <br>
                 <label>Email:
-                            <input type="email" name="email" placeholder="Your Email" required maxlength="30" >
+                            <input type="email" id="email" placeholder="Your Email" required maxlength="30" >
                             <br>
                         </label>
                 <br>
-                <label>Your message:</label>
+                <label>Your message:
                 <br>
                 <textarea rows="4" cols="30" autofocus>
                             </textarea>
+                            </label>
                 <br>
-                <input type="submit" value="SEND">
-            </form>
-        </div>
+            <input type="submit">
+        </form>
+
+        <div id="msg"> </div>
         <div class="my" style="order: 5">
             <p id="contacts">Alexandr Morozov. All Rights Reserved ©.contact number: +380979345827</p>
             <a href="https://www.facebook.com/?ref=tn_tnmn"><img id="f" src="images/isf10.jpg" alt="description" ><br>my Fb</a>
         </div>
         <div id="fotos">тут будуть фотки
         </div>
-
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/index.js"></script>
+        <script src="js/form.js"></script>
     </div>
 </body>
 
