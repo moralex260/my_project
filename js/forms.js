@@ -13,7 +13,7 @@ function sendForm(e) {
         method: "POST",
         data: {
             name: $('#your-name').val(),
-        youremail$('#email').val(),
+        youremail$('#mail').val(),
             message: $('#your-message').val()
             
         },
