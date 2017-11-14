@@ -1,11 +1,11 @@
 #main {
- background-image: url(images/fon.jpg);
+ background-image: url(/images/fon.jpg);
  background-attachment: fixed;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
- max-width: 75%;
- min-width: 300px;
+ min-width: 15%;
+ max-width: 100%;
  margin: auto;
  padding: 0;
 }
@@ -18,6 +18,9 @@
 }
 
 h1 {
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
  font-family: War is Over;
  color: red;
  margin: inherit;
@@ -26,6 +29,7 @@ h1 {
 }
 
 h2 {
+ text-align: center;
  font-family: War is Over;
  color: red;
 }
@@ -50,7 +54,7 @@ p {
  bottom: auto;
  right: 50px;
  margin: 0 auto;
- padding: 0;
+ padding: 50px;
 }
 
 #f {
@@ -102,18 +106,19 @@ p {
 }
 
 #fotos {
- min-width: 200px;
- height: 150px;
- left: 200px;
+ border: 4px solid black;
+ min-width: auto;
+ height: 300px;
+ right:  300px;
  background-color: purple;
- background-size: cover;
- margin: 0 auto;
- padding: 0;
+bottom: auto;
+ margin: auto;
+ padding:0;
 }
 
 #mybtn {
- width: 128px;
- height: 128px;
+width:128px;
+ height:128px;
  right: 200px;
- background-image: url(images/btn.png)
+ background-image: url(/images/btn.png)
 }
