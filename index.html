@@ -1,70 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>my personal website</title>
-    <link rel="stylesheet" type="text/css" href="css.css" />
-   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster|Pacifico|Yanone+Kaffeesatz" rel="stylesheet">
-
-    <script src="1.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
-<body>
-   
-     <header id="header">
-        <center>
-            <h1>Aleksandr Morozov</h1>
-        </center>
-        <center>
-            <h2>my personal website</h2>
-        </center>
-        <nav><a href="home"></a> | <a href="links.html">links</a> |
-            <a href="#contacts">contacts</a> | <a href="#about-me">about me</a></nav>
 
-        <div1 id="music" class="music"> <style type="text/css">
-        #mybtn {
-            width: 128px;
-            height: 128px;
-            right:200px;
-            background-image: url(http://s7.hostingkartinok.com/uploads/images/2014/02/b33ecdff35171950f356df80a6a7c3dd.png);
-        }
-    </style>
-     <audio id="myaudio" src="1.mp3" controls></audio>
-    <button id="mybtn"></button>
- <script>
-        document.getElementById("mybtn").onclick = function()
-        {
-            var myaudio = document.getElementById("myaudio");
-            if (myaudio.paused == true)
-            {
-                myaudio.play();
-                this.style.background = "url(http://gbdou88fr.caduk.ru/images/p93_color-violin-clef-illustration-music-note-circle-33645042.jpg)";
-            }
-            else if (myaudio.paused == false)
-            {
-                myaudio.pause();
-                this.style.background = "url(http://s7.hostingkartinok.com/uploads/images/2014/02/b33ecdff35171950f356df80a6a7c3dd.png)";
-            }
-        };
-    </script>
-    </div1>
-        <div2 class="layer1"> <img id="image" src=images/my-foto.png alt="my foto" class="rightimg">I am Olesandr Morozov and this is my personal site, which I created while studying in the academy of software servers. the purpose of creating this site is to apply in practice the knowledge
-            gained during the learning process.</div2>
-    </header>
-    <main id="main">
-        <div3 class=about-me id=about-me>
+<body>
+   <div id="main">
+
+    <h1>Aleksandr Morozov</h1>
+    <h2>my personal website</h2>
+    <nav><a href="home"></a> | <a href="links.html">links</a> |
+        <a href="#contacts">"contacts"</a> | <a href="#about-me">"about me"</a>
+        </nav>
+    < <div id="music" class="music">
+        <audio id="myaudio" src="music/fonmusic.mp3" controls></audio>
+        <button id="mybtn"></button>
+        </div>
+        <div class="layer1"> <img id="image" src=imgs/my-foto.png alt="my foto" class="rightimg">I am Olesandr Morozov and this is my personal site, which I created while studying in the academy of software servers. the purpose of creating this site is to apply in practice
+            the knowledge gained during the learning process.
+        </div>
+        <div class=about-me id=about-me>
             <p><a name="about-me"></a></p>
             <h2>about me</h2>
-
             I was born in Lviv in 1978 in Ukraine. In 1994 I graduated from the school with the best result and entered the Lviv National University of Veterinary Medicine and Biotechnology, which successfully graduated in 1999 with a diploma with honors. After that
             I was engaged in many businesses. Finally, in the fall of 2017, I began to visit the html, css, javascript course foundations. I hope to become the developer. This site is my first steps in this direction.
-        </div3>
-        <div4 id="email" class="email">
+        </div>
+        <div id="email" class="email">
             <form method="POST" action="https://formspree.io/moralex260@gmail.com">
                 <label>Name:
                             <input type="text" name="client-name" placeholder="Your Name" maxlength="12" required  >
@@ -83,21 +50,17 @@
                 <br>
                 <input type="submit" value="SEND">
             </form>
-        </div4>
+        </div>
+        <div class="my" style="order: 5">
+            <p id="contacts">Alexandr Morozov. All Rights Reserved ©.contact number: +380979345827</p>
+            <a href="https://www.facebook.com/?ref=tn_tnmn"><img id="f" src="images/isf10.jpg" alt="description" ><br>my Fb</a>
+        </div>
+        <div id="fotos">тут будуть фотки
+        </div>
 
-    </main>
-    <footer id="footer" clas="footer">
-       
-            <div class="my" style="order: 5">
-                <p1 id="contacts">Alexandr Morozov. All Rights Reserved ©.contact number: +380979345827</p1>
-               <a href="https://www.facebook.com/?ref=tn_tnmn"><img id="f" src="images/isf10.jpg" alt="description" ><br>my Fb</a>
-            </div>
-           <div5 id="fotos">тут будуть фотки
-           </div5>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+</div>
 </body>
+
 </html>

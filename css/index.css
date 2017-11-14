@@ -1,14 +1,12 @@
-body {
- ;
-
- background-image: url(images/1.jpg);
+#main{
+ background-image: url(images/fon.jpg);
  background-attachment: fixed;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
  max-width: 75%;
  min-width: 300px;
- margin: 0 auto;
+ margin: auto;
  padding: 0;
 }
 
@@ -19,7 +17,7 @@ body {
  /* Путь к файлу со шрифтом */
 }
 
-h1 {
+h1{
  font-family: War is Over;
  color: red;
  margin: inherit;
@@ -32,11 +30,11 @@ h2 {
  color: red;
 }
 
-p1 {
+p {
  color: green;
 }
 
-div1 {
+#image {
  color: yellow;
  right: 20px;
 }
@@ -63,7 +61,7 @@ div1 {
 .layer1 {
  float: right;
  /* Обтекание по правому краю */
- background:#fd0 ;
+ background: #fd0;
  /* Цвет фона */
  border: 1px solid black;
  border-radius: 0 70px 70px 0;
@@ -81,7 +79,7 @@ div1 {
 #image {
  max-width: 150px;
  max-height: inherit;
- border-radius :0 50px 50px 0;
+ border-radius: 0 50px 50px 0;
 }
 
 .about-me {
@@ -101,14 +99,21 @@ div1 {
  bottom: auto;
  margin: 0 auto;
  padding: 0;
-
 }
+
 #fotos {
  min-width: 200px;
- max-height: 150px;
+ height: 150px;
  left: 200px;
  background-color: purple;
  background-size: cover;
- margin:0 auto;
- padding: 0 ;
+ margin: 0 auto;
+ padding: 0;
+}
+
+#mybtn{
+ width: 128px;
+ height: 128px;
+ right: 200px;
+ background-image: url(images/btn.png)
 }

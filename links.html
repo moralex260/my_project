@@ -2,78 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css.css" />
-    <link href="url">
-<script src="https://js.cx/libs/animate.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <link rel="stylesheet"  href="css/index.css" />
+  <link href="url">
+  <script src="https://js.cx/libs/animate.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 
-    <script src="1.js"></script>
-    <script src="js/jquery-2.2.3.min.js"></script>
+  <script src="js/ball.js"></script>
+  <script src="js/jquery-2.2.3.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>links</h1>
-        <p11>Here are links to some of the teaching materials that helped me in my study:</p11>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>links</h1>
+    <p11>Here are links to some of the teaching materials that helped me in my study:</p11>
     <nav>
-        <ul>
-            <br>
-            <label>		<li><a href=https://validator.w3.org>validator.w3.org</a></li></label>
-            <li><a href=https://github.com>github</a></li>
-            <li><a href=https://c9.io>cloud9</a></li>
-            <li><a href=https://learncssgrid.com/>learncssgrid</a>
-            </li>
-            <li><a href=https://developer.mozilla.org>mdn</a></li>
-            <li><a href=https://app.moqups.com>moqups</a></li>
-            <li><a href=https://></a>
-            </li>
-            <li></li> <a href='http://favicon.ru'> Favicon.ru - создание и редактирование фавиконов, иконок сайтов</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
     </nav>
- <div id="field">
-    <img src="<img  src=my_project/images/my-foto.png alt="my foto" class="rightimg"" width="40" height="40" id="ball">
-  </div>
-
-  <script>
-    function makeEaseOut(timing) {
-      return function(timeFraction) {
-        return 1 - timing(1 - timeFraction);
-      }
-    }
-
-    function bounce(timeFraction) {
-      for (var a = 0, b = 1, result; 1; a += b, b /= 2) {
-        if (timeFraction >= (7 - 4 * a) / 11) {
-          return -Math.pow((11 - 6 * a - 11 * timeFraction) / 4, 2) + Math.pow(b, 2)
-        }
-      }
-    }
-
-    ball.onclick = function() {
-
-      var to = field.clientHeight - ball.clientHeight;
-
-      animate({
-        duration: 2000,
-        timing: makeEaseOut(bounce),
-        draw: function(progress) {
-          ball.style.top = to * progress + 'px'
-        }
-      });
-
-
-    };
-  </script>
+  </header>
+  <nav>
+    <ul>
+      <br>
+      <label>		<li><a href=https://validator.w3.org>validator.w3.org</a></li></label>
+      <li><a href=https://github.com>github</a></li>
+      <li><a href=https://c9.io>cloud9</a></li>
+      <li><a href=https://learncssgrid.com/>learncssgrid</a>
+      </li>
+      <li><a href=https://developer.mozilla.org>mdn</a></li>
+      <li><a href=https://app.moqups.com>moqups</a></li>
+      <li><a href=https://></a>
+      </li>
+      <li></li> <a href='http://favicon.ru'> Favicon.ru - создание и редактирование фавиконов, иконок сайтов</a></li>
+    </ul>
+  </nav>
 </body>
 
 </html>
