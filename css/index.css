@@ -1,4 +1,4 @@
-#main{
+#main {
  background-image: url(images/fon.jpg);
  background-attachment: fixed;
  background-position: center;
@@ -17,7 +17,7 @@
  /* Путь к файлу со шрифтом */
 }
 
-h1{
+h1 {
  font-family: War is Over;
  color: red;
  margin: inherit;
@@ -27,11 +27,11 @@ h1{
 
 h2 {
  font-family: War is Over;
- color:red;
+ color: red;
 }
 
 p {
- color:green;
+ color: green;
 }
 
 #image {
@@ -111,7 +111,7 @@ p {
  padding: 0;
 }
 
-#mybtn{
+#mybtn {
  width: 128px;
  height: 128px;
  right: 200px;
