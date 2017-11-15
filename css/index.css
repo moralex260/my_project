@@ -1,10 +1,10 @@
-#main {
+body {
  background-image: url(/images/fon.jpg);
  background-attachment: fixed;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
- min-width: 15%;
+ 
  max-width: 100%;
  margin: auto;
  padding: 0;
@@ -90,16 +90,12 @@ p {
  min-width: 300px;
  max-height: 300px;
 }
-
 .rightimg {
  float: right;
  /* Выравнивание по правому краю  */
  margin: 0px 0 0px 0px;
  /* Отступы вокруг картинки */
 }
-
-
-
 #fotos {
  border: 4px solid black;
  min-width: 200;
@@ -117,4 +113,5 @@ width:128px;
  right: 200px;
  background-image: url(/images/btn.png)
 }
-#contacts{height: auto}
+#contacts{
+ height: auto}
