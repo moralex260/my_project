@@ -9,7 +9,7 @@ document.getElementById("mybtn").onclick = function() {
         this.style.backgroundImage = "url(/images/btn.png)";
     }
 };
-
+let makeEaseOut;
 function makeEaseOut(timing) {
     return function(timeFraction) {
         return 1 - timing(1 - timeFraction);
