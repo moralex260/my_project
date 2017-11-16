@@ -1,0 +1,59 @@
+#links {
+ background-image: url(../images/fon3.jpg);
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 900px;
+ max-width: 100%;
+ margin: auto;
+ padding: 0;
+}
+
+.conteiner {
+ display: flex;
+ align-content: space-around;
+ flex-direction: column;
+}
+
+#link1 {
+ background: url(src= images/linksimg.jpg  );
+ height: 128px;
+ position: relative;
+ width: 128px
+}
+
+#link2 {
+ background: url(../images/linksimg.jpg  );
+ height: 128px;
+ position:relative;
+ width: 128px
+}
+
+#link3 {
+ background: url(src=images/linksimg.jpg  );
+ height: 128px;
+ position: absolute;
+ width: 128px
+}
+
+#link4 {
+ background: url(../images/linksimg.jpg  );
+ height: 128px;
+ position: relative;
+ width: 128px
+}
+
+#link5 {
+ background: url(../images/linksimg.jpg  );
+ height: 128px;
+ position: relative;
+ width: 128px
+}
+
+#link6 {
+ background: url(../images/linksimg.jpg  );
+ height: 128px;
+ position: relative;
+ width: 128px
+}
