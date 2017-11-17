@@ -9,6 +9,3 @@ document.getElementById("mybtn").onclick = function() {
         this.style.backgroundImage = "url(../images/btn.png)";
     }
 };
-
-
-
