@@ -136,10 +136,13 @@ p {
  display: flex;
  align-content: space-around;
  flex-direction:column;
+ font-size: 30px;
+  font: black;
+  
 }
 
 #link1 {
- background: url(src= images/linksimg.jpg  );
+ background: url(../images/linksimg.jpg  );
  height: 128px;
  position: relative;
  width: 128px
@@ -151,7 +154,7 @@ p {
  width: 128px
 }
 #link3{
- background: url(src=images/linksimg.jpg  );
+ background: url(../images/linksimg.jpg  );
  height: 128px;
  position: absolute;
  width: 128px

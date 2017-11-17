@@ -1,0 +1,87 @@
+#links {
+ background-image: url(../images/fon3.jpg);
+ background-attachment:fixed ;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 900px;
+ max-width: 100%;
+ margin: auto;
+ padding: 0;
+}
+p{color:yellow;
+font-size: 24px;
+font-weight: 100
+}
+.conteiner {
+ display: flex;
+
+ 
+ font-size: 24px; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    color: yellow; /* Цвет ссылки */
+    text-decoration: none ;
+    margin: auto;
+    padding:0;
+    width:150;
+}
+
+#link1 { 
+ background: url(../images/validator.png  );
+ height: 128px;
+ position: relative;
+ width: 128px;
+
+}
+
+#link2 {
+ background: url(../images/linksimg.jpg  );
+ height: 128px;
+ position:relative;
+ width: 128px;
+ text-decoration: none;
+
+}
+
+#link3 {
+ background: url(../images/linksimg.jpg  );
+ height: 128px;
+ position: relative;
+ width: 128px;
+ text-decoration: none;
+
+}
+
+#link4 {
+ background: url(../images/linksimg.jpg  );
+ height: 128px;
+ position: relative;
+ width: 128px;
+  text-decoration: none;
+ 
+}
+
+#link5 {
+ background: url(../images/linksimg.jpg  );
+ height: 128px;
+ position:relative;
+ width: 128px;
+ text-decoration: none;
+
+}
+
+#link6 {
+ background: url(../images/linksimg.jpg  );
+ height: 128px;
+ position: relative;
+ width: 128px;
+ text-decoration: none;
+
+}
+#li{
+ font-size: 24px;
+ color :green;
+}
+a{ 
+ font-size:  24px;
+color: green;}
