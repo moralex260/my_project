@@ -1,5 +1,5 @@
 document.getElementById("mybtn").onclick = function() {
-    const myaudio = document.getElementById("myaudio");
+    let myaudio = document.getElementById("myaudio");
     if (myaudio.paused == true) {
         myaudio.play();
         this.style.backgroundImage = "url(../images/color-violin.jpg)";
