@@ -18,11 +18,11 @@ p {
 
 .conteiner {
  display: flex;
- align-content:space-around;
- flex-wrap:wrap;
- align-items:flex-start;
-flex-direction:row;
-justify-content:space-between;
+ align-content: space-around;
+ flex-wrap: wrap;
+ align-items: flex-start;
+ flex-direction: row;
+ justify-content: space-between;
  font-size: 24px;
  /* Размер шрифта */
  font-weight: bold;
@@ -59,6 +59,7 @@ justify-content:space-between;
  width: 131px;
  text-decoration: none;
 }
+
 #link4 {
  background: url(../images/learncssgrid.png );
  height: 150px;
@@ -84,14 +85,16 @@ justify-content:space-between;
  text-decoration: none;
 
 }
-#link8{
-border:0;
+
+#link8 {
+ border: 0;
  height: auto;
  position: relative;
  width: auto;
  padding-top: 50px;
- 
+
 }
+
 #li {
  font-size: 24px;
  color: brown;

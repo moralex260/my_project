@@ -20,6 +20,6 @@ function sendForm(e) {
         .done(function() {
             $('form')[0].reset();
             $('#msg').html('Thank you!');
-        })
+        });
 
 }

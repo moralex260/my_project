@@ -59,7 +59,6 @@ p {
 .layer1 {
  float: right;
  /* Обтекание по правому краю */
- 
  /* Цвет фона */
  border: 0;
  border-radius: 0 70px 70px 0;
@@ -72,7 +71,7 @@ p {
  /* Ширина блока */
  left: 20px;
  top: auto;
- opacity:0.7;
+ opacity: 0.7;
 }
 
 #image {
@@ -80,7 +79,7 @@ p {
  max-height: inherit;
  border-radius: 50px 50px 50px 50px;
  opacity: 0.5;
- border:0;
+ border: 0;
 }
 
 #about-me {
@@ -112,17 +111,6 @@ p {
  padding: 0;
 }
 
-#mybtn {
- width: 128px;
- height: 128px;
- right: 200px;
- background-image: url(../images/btn.png);
-
-}
-#music{
- opacity: 0.3
-}
 #contacts {
  height: auto
 }
-
