@@ -18,8 +18,11 @@ p {
 
 .conteiner {
  display: flex;
-
-
+ align-content:space-around;
+ flex-wrap:wrap;
+ align-items:flex-start;
+flex-direction:row;
+justify-content:space-between;
  font-size: 24px;
  /* Размер шрифта */
  font-weight: bold;
@@ -29,62 +32,69 @@ p {
  text-decoration: none;
  margin: auto;
  padding: 0;
- width: 150;
+ width: auto;
 }
 
 #link1 {
  background: url(../images/validator.png  );
- height: 128px;
+ height: 150px;
  position: relative;
- width: 128px;
+ width: 131px;
 
 }
 
 #link2 {
  background: url(../images/github.png  );
- height: 128px;
+ height: 150px;
  position: relative;
- width: 128px;
+ width: 131px;
  text-decoration: none;
 
 }
 
 #link3 {
  background: url(../images/cloud9.png );
- height: 128px;
+ height: 150px;
  position: relative;
- width: 128px;
+ width: 131px;
  text-decoration: none;
 }
 #link4 {
  background: url(../images/learncssgrid.png );
- height: 128px;
+ height: 150px;
  position: relative;
- width: 128px;
+ width: 131px;
  text-decoration: none;
 }
 
 #link5 {
  background: url(../images/developer.mozilla.org.png  );
- height: 128px;
+ height: 150px;
  position: relative;
- width: 128px;
+ width: 131px;
  text-decoration: none;
 
 }
 
 #link6 {
  background: url(../images/app.moqups.png);
- height: 128px;
+ height: 150px;
  position: relative;
- width: 128px;
+ width: 131px;
  text-decoration: none;
 
 }
-
+#link8{
+border:0;
+ height: auto;
+ position: relative;
+ width: auto;
+ padding-top: 50px;
+ 
+}
 #li {
  font-size: 24px;
- color: green;
+ color: brown;
 }
 
 a {
