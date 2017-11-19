@@ -102,8 +102,8 @@ p {
 }
 
 #fotos {
- border: 2px solid black;
- min-width: 200;
+
+ min-width: 200px;
  height: 300px;
  right: 300px;
  background-color: purple;
